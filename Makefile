@@ -6,7 +6,7 @@
 #
 
 install :
-	cp crimson.cls $$TEXMFHOME/tex/latex
+	cp crimson.cls $(TEXMFHOME)/tex/latex
 
 uninstall :
-	rm $$TEXMFHOME/tex/latex/crimson.cls
+	rm $(TEXMFHOME)/tex/latex/crimson.cls
