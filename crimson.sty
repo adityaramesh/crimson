@@ -9,12 +9,14 @@
 \ProvidesPackage{crimson}
 \RequirePackage{fontspec}
 
-\setmainfont[
+\fontspec[
 	Path           = /Users/aditya/Library/Fonts/,
 	Extension      = .otf,
 	Ligatures      = TeX,
-	Scale          = MatchLowercase,
-	BoldFont       = Crimson-Bold,
-	ItalicFont     = Crimson-Italic,
-	BoldItalicFont = Crimson-BoldItalic
-]{Crimson-Roman}
+	UprightFont    = *-Roman,
+	BoldFont       = *-Bold,
+	ItalicFont     = *-Italic,
+	BoldItalicFont = *-BoldItalic
+]{Crimson}
+
+\setmainfont{Crimson}
